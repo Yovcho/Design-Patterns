@@ -11,9 +11,9 @@ public class GetUpCommand implements Command {
 		this.exercise = exercise;
 	}
 	@Override
-	public void execute() 
+	public String execute() 
 	{
-		this.exercise.getUp();
+		return this.exercise.getUp();
 	}
 
 }

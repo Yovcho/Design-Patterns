@@ -11,8 +11,8 @@ public class LayDownCommand implements Command {
 		this.exercise = exercise;
 	}
 	@Override
-	public void execute() 
+	public String execute() 
 	{
-		this.exercise.layDown();
+		return this.exercise.layDown();
 	}
 }
