@@ -3,17 +3,13 @@ package Commands;
 public class Exercise {
 	private Boolean isLieDown;
 	
-	public String getUp() {
-		System.out.println("Exercise is now getting up.");
+	public void getUp() {
+		System.out.println("getting up");
 		this.isLieDown = false;
-		return "get up";
-			
 	}
 	
-	public String layDown() {
-		System.out.println("Exercise is now laying down.");
+	public void layDown() {
+		System.out.println("laying down");
 		this.isLieDown = true;
-		return "lay down";
 	}
-	
 }
