@@ -10,8 +10,8 @@ public class FitnessInstructor {
 		this.command = command;
 	}
 	
-	public void switchExercise() {
-		System.out.println("Switching the exercise.");
-		this.command.execute();
+	public String switchExercise() {
+		System.out.println("Fitness Instructor is switching the exercise.");
+		return this.command.execute();
 	}
 }
